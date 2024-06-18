@@ -56,8 +56,6 @@ python autocop_cli.py single_plot <csv_file> <architecture> <output_html>
 python autocop_cli.py single_plot llama_output.csv ROCm output_plot_rocm_standalone.html
 ```
 
-![standalone plot](images/single_plot.png)
-
 ## Comparison plot example
 
 ```sh
@@ -67,9 +65,3 @@ python autocop_cli.py compare_plot <csv_file1> <arch1> <csv_file2> <arch2> <outp
 ```sh
 python autocop_cli.py compare_plot llama_output.csv ROCm llama_nvidia_output.csv Nvidia comparison_output.html
 ```
-
-![comparison plot](images/comparison_plot.png)
-
-## HTML 
-**Download the html files in HTML for interactive view in Chrome or other browser**
-
