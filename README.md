@@ -46,6 +46,14 @@ make clean
  rm -rf aclite
 ```
 
+## Generate summary csv file
+
+Use the summmarize_rpd.py script to generate a csv file compatible with autocopLite.py
+
+```python
+export_sqlite_to_csv('trace.rpd', 'llama_output.csv')
+```
+
 ## Standalone plot example
 
 ```sh
